@@ -1,0 +1,4 @@
+// Resource script. Paths are relative to the project root folder
+// (build.bat always runs from there).
+1 ICON "assets/app.ico"
+1 24 "assets/app.manifest"

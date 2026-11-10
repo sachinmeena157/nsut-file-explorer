@@ -1,0 +1,10 @@
+build/
+*.exe
+*.o
+*.obj
+*.dll
+*.pdb
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini

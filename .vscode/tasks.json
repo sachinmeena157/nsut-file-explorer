@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build File Explorer",
+            "type": "shell",
+            "command": "cmd /c \"${workspaceFolder}\\build.bat\"",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"],
+            "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+        },
+        {
+            "label": "Build and Run",
+            "type": "shell",
+            "command": "cmd /c \"${workspaceFolder}\\build.bat run\"",
+            "problemMatcher": ["$gcc"],
+            "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+        },
+        {
+            "label": "Run console tests",
+            "type": "shell",
+            "command": "cmd /c \"${workspaceFolder}\\test.bat\"",
+            "problemMatcher": ["$gcc"],
+            "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+        }
+    ]
+}

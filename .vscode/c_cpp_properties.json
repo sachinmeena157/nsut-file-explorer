@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Windows MinGW UCRT64",
+            "includePath": [ "${workspaceFolder}/include" ],
+            "defines": [ "UNICODE", "_UNICODE", "NOMINMAX", "_WIN32_WINNT=0x0A00", "WINVER=0x0A00" ],
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
